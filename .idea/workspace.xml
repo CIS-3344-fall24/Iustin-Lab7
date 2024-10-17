@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc8b8db2-78c9-45aa-9897-6b4e51016301" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 1/defaultOperations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 1/exports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namedOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 1/namedOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise 3/CalculateTotal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 3/CalculateTotal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.promises.html.executor": "Run",
     "Node.js.CalculateTotal.js.executor": "Run",
     "Node.js.validateUser.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +86,7 @@
       <workItem from="1728918904625" duration="4000" />
       <workItem from="1728938534374" duration="33000" />
       <workItem from="1728940746306" duration="3228000" />
-      <workItem from="1729039427243" duration="17787000" />
+      <workItem from="1729039427243" duration="21008000" />
     </task>
     <servers />
   </component>

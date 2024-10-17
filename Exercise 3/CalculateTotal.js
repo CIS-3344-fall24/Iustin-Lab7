@@ -34,7 +34,7 @@ function calculateTotal(orderJSON) {
     const obj = JSON.parse(orderJSON);
     let total = 0;
     let output;
-    
+
     for (let i = 0; i < obj.items.length; i++) {
         output +=
             total += obj.items[i].price * obj.items[i].quantity;
