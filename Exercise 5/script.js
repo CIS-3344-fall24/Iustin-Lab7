@@ -1,15 +1,15 @@
-function getRandomDelay(min, max) {
+function RandomDelay(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-const randomNumber = getRandomDelay(3000, 9000);
+const randomNumber = RandomDelay(3000, 9000);
 
 function paymentReceived() {
     return new Promise((resolve, reject) => {
         console.log("Promise Created: Pending State");
 
         let success = true;
-        const delay = getRandomDelay();
+        const delay = RandomDelay();
 
         setTimeout(() => {
             if (success) {
@@ -29,7 +29,7 @@ function paymentProcessing() {
         console.log("Promise Created: Pending State");
 
         let success = false;
-        const delay = getRandomDelay();
+        const delay = RandomDelay();
 
         setTimeout(() => {
             if (success) {
@@ -49,7 +49,7 @@ function paymentSuccessful() {
         console.log("Promise Created: Pending State");
 
         let success = true;
-        const delay = getRandomDelay();
+        const delay = RandomDelay();
 
         setTimeout(() => {
             if (success) {
@@ -63,12 +63,18 @@ function paymentSuccessful() {
     });
 }
 
-paymentReceived()
-    .then(() => paymentProcessing())
-    .then(() => paymentSuccessful())
-    .then(() => {
-        console.log("All payment steps completed successfully.");
-    })
-    .catch((error) => {
-        console.error(error);
-    });
+async function payments() {
+    try {
+        let received = await paymentReceived();
+        console.log(received);
+
+        let process = await paymentProcessing();
+        console.log(process);
+
+        let successful = await paymentSuccessful();
+        console.log(successful);
+    } catch (error) {
+        console.log(error);
+    }
+}
+

@@ -7,6 +7,8 @@
     <list default="true" id="fc8b8db2-78c9-45aa-9897-6b4e51016301" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise 3/CalculateTotal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 3/CalculateTotal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise 4/PaymentAsynchronous.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise 4/PaymentAsynchronous.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.async.html.executor": "Run",
     "JavaScript Debug.promises.html.executor": "Run",
     "Node.js.CalculateTotal.js.executor": "Run",
     "Node.js.validateUser.js.executor": "Run",
@@ -86,7 +89,7 @@
       <workItem from="1728918904625" duration="4000" />
       <workItem from="1728938534374" duration="33000" />
       <workItem from="1728940746306" duration="3228000" />
-      <workItem from="1729039427243" duration="21008000" />
+      <workItem from="1729039427243" duration="28816000" />
     </task>
     <servers />
   </component>

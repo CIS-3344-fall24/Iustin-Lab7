@@ -30,15 +30,31 @@ const ordersJSON = `[
     }
 ]`;
 
+
 function calculateTotal(orderJSON) {
     const obj = JSON.parse(orderJSON);
     let total = 0;
     let output;
 
-    for (let i = 0; i < obj.items.length; i++) {
-        output +=
-            total += obj.items[i].price * obj.items[i].quantity;
+    for (let i = 0; i < obj.length; i++) {
+        for (let j = 0; j < obj[i].items.length; j++) {
+
+            total += obj[i].items[j].price * obj[i].items[j].quantity;
+            itemsBought += `${obj[i].items[j].name} (x${obj[i].items[j].quantity}`;
+        }
+
+        output += `
+            <tr>
+                <td>${obj[i].customer.name}</td>
+                <td>${obj[i].customer.email}</td>
+                <td>${itemsBought}</td>
+                <td>${obj[i].items[j].quantity}</td>
+                <td>$${total}</td>
+            </tr>
+        `;
     }
 
-    document.getElementById("orderTotal").innerHTML = output;
+    document.getElementById('#orderTable tbody').innerHTML = output;
 }
+
+calculateTotal(ordersJSON);w
